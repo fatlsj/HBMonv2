@@ -49,6 +49,11 @@ php support running on the server.
     define("HEIGHT_ACTIVITY","45px");
 
     In the html directory there is a buttons.html file that you can tune to menu keys 
+
+    中间需要降级openssl，否则python3.7不兼容。命令如下：
+    pip install --force-reinstall \
+    cryptography==3.4.8 \      # 最后一个明确支持 Python 3.7 的版本
+    pyOpenSSL==20.0.1          # 兼容旧版 OpenSSL 的稳定版本
     
     The logo image you can replace with file image in html directory  img/logo.png
     cp utils/lastheard /etc/cron.daily/
