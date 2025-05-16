@@ -29,7 +29,8 @@ php support running on the server.
     ./install.sh
     cp config_SAMPLE.py config.py
     edit config.py and change what you necessary
-
+    apt install apache2 -y
+    apt install php -y
     You need to copy the contents of the /opt/HBMonv2/html directory to 
     the web server directory. Suppose your web server is available 
     as http://dmrserver.org, copy the file to for example /var/www/html
