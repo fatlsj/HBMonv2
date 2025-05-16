@@ -35,13 +35,15 @@ php support running on the server.
     the web server directory. Suppose your web server is available 
     as http://dmrserver.org, copy the file to for example /var/www/html
 
+    sudo cp /opt/HBMonv2/html/* /var/www/html/ -r
+    
     If you copy files to /var/www/html/hbmon, HBMonitor will be 
     accessible from http://dmrserver.org/hbmon
 
     You can copy to /var/www/hbmon and start HBMonitor access by configuring 
     virtual the web server for subdomains e.g. hbmon.dmrserver.org 
     the access will then be http://hbmon.dmrserver.org 
-
+    
     In the html/include/ directory there is a config.php file in which you 
     set the color theme and name for your Dashboard. 
     
