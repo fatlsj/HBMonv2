@@ -59,8 +59,9 @@ php support running on the server.
     #pyOpenSSL==20.0.1          # 兼容旧版 OpenSSL 的稳定版本
     
     启动前，执行以下命令更新openssl：
-pip uninstall pyopenssl cryptography
-pip install --no-cache-dir pyopenssl cryptography
+    pip uninstall pyopenssl cryptography
+    pip install --no-cache-dir pyopenssl cryptography
+
     The logo image you can replace with file image in html directory  img/logo.png
     cp utils/lastheard /etc/cron.daily/
     chmod +x /etc/cron.daily/lastheard
